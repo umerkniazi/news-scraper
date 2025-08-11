@@ -12,10 +12,21 @@ Planned updates include:
 - Improving data storage and formatting
 - Implementing filtering and categorization features
 
+## Setup
+
+Before running the scraper, install the required Python packages:
+
+    pip install -r requirements.txt
+
+This will install:
+
+- `requests` for making HTTP requests
+- `beautifulsoup4` for parsing HTML
+
 ## Data Storage
 
-Scraped articles are saved in the `data` folder as SQLite database files (not included in this repo).  
-The `data` folder is kept in the repo with a placeholder file so it’s ready to store your data.
+Scraped articles are saved in the `data` folder as SQLite database files.  
+The `data` folder is empty in the repo and will be populated when you run the script.
 
 ## Disclaimer
 
