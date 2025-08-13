@@ -14,7 +14,7 @@ Planned updates include:
 
 ## Setup
 
-Before running the scraper, install the required Python packages:
+Before running the scraper, install the Python packages required to run the scraper:
 
     pip install -r requirements.txt
 
@@ -23,15 +23,18 @@ This will install:
 - `requests` for making HTTP requests
 - `beautifulsoup4` for parsing HTML
 
+For viewing and managing the SQLite databases, you can use [DB Browser for SQLite](https://sqlitebrowser.org/), which provides a simple graphical interface to explore your scraped data.
+
 ## Data Storage
 
 Scraped articles are saved in the `data` folder as SQLite database files.  
-The `data` folder is empty in the repo and will be populated when you run the script.
+The folder starts empty and will be filled when you run the scraper.  
+You can open these database files with DB Browser for SQLite to browse, query and manage your scraped articles.
 
 ## Disclaimer
 
 This project is for **educational purposes only**.  
-I do not encourage or support misuse of the data. Please respect each source’s terms of service and copyright rules.
+Please respect each source’s terms of service and copyright rules.
 
 ## License
 
